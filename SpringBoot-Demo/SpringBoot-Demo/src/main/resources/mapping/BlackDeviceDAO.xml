@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.licf.demo.dao.BlackDeviceDAO">
+  <resultMap id="BaseResultMap" type="com.licf.demo.model.BlackDevice">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+    <result column="is_black_party" jdbcType="INTEGER" property="isBlackParty" />
+    <result column="delete_flag" jdbcType="INTEGER" property="deleteFlag" />
+    <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    <result column="gmt_update" jdbcType="TIMESTAMP" property="gmtUpdate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, number, is_black_party, delete_flag, gmt_create, gmt_update
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from MBCC_Black_Device
+    where id = #{id,jdbcType=VARCHAR} and delete_flag = 0
+  </select>
+
+  <select id="findList" parameterType="com.licf.demo.model.BlackDevice" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from MBCC_Black_Device
+  </select>
+
+  <select id="getByName" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from MBCC_Black_Device
+    where login_name=#{name} and del_flag=0
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from MBCC_Black_Device
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.licf.demo.model.BlackDevice">
+    insert into MBCC_Black_Device (id, number, `is_black_party`,
+      delete_flag, `gmt_create`, `gmt_update`
+      )
+    values (#{id,jdbcType=VARCHAR}, #{number,jdbcType=INTEGER}, #{isBlackParty,jdbcType=INTEGER},
+      #{deleteFlag,jdbcType=INTEGER}, #{gmtCreate,jdbcType=TIMESTAMP}, #{gmtUpdate,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.licf.demo.model.BlackDevice">
+    insert into MBCC_Black_Device
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="number != null">
+        number,
+      </if>
+      <if test="isBlackParty != null">
+        `is_black_party`,
+      </if>
+      <if test="deleteFlag != null">
+        delete_flag,
+      </if>
+      <if test="gmtCreate != null">
+        `gmt_create`,
+      </if>
+      <if test="gmtUpdate != null">
+        `gmt_update`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="number != null">
+        #{number,jdbcType=INTEGER},
+      </if>
+      <if test="isBlackParty != null">
+        #{isBlackParty,jdbcType=INTEGER},
+      </if>
+      <if test="deleteFlag != null">
+        #{deleteFlag,jdbcType=INTEGER},
+      </if>
+      <if test="gmtCreate != null">
+        #{gmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtUpdate != null">
+        #{gmtUpdate,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.licf.demo.model.BlackDevice">
+    update MBCC_Black_Device
+    <set>
+      <if test="id != null">
+        id = #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="number != null">
+        `number` = #{number,jdbcType=INTEGER},
+      </if>
+      <if test="isBlackParty != null">
+        is_black_party = #{isBlackParty,jdbcType=INTEGER},
+      </if>
+      <if test="deleteFlag != null">
+        `delete_flag` = #{deleteFlag,jdbcType=INTEGER},
+      </if>
+      <if test="gmtCreate != null">
+        `gmt_create` = #{gmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtUpdate != null">
+        gmt_update = #{gmtUpdate,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.licf.demo.model.BlackDevice">
+    update MBCC_Black_Device
+    set
+        <if test="number != null">
+          `number` = #{number,jdbcType=INTEGER},
+        </if>
+        <if test="isBlackParty != null">
+          `is_black_party` = #{isBlackParty,jdbcType=INTEGER},
+        </if>
+        <if test="deleteFlag != null">
+          delete_flag = #{deleteFlag,jdbcType=INTEGER},
+        </if>
+        <if test="gmtUpdate != null">
+          `gmtUpdate` = #{gmtUpdate,jdbcType=TIMESTAMP}
+        </if>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

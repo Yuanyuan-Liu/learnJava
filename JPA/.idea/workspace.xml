@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60bbef5c-d78b-4853-8a7d-5b189827bbee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/.github/issue_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/QQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/mobile_screenshot_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/mobile_screenshot_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pad_screenshot_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pad_screenshot_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pad_screenshot_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pc_screenshot_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pc_screenshot_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pc_screenshot_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pc_screenshot_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pc_screenshot_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/pc_screenshot_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/screenshot/treatme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/sql/febs_base.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/sql/febs_quartz.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/FebsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/annotation/FebsEndPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/annotation/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/annotation/IsCron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/annotation/IsMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/annotation/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/aspect/LimitAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/authentication/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/authentication/ShiroHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/authentication/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/authentication/ShiroSessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/configure/FebsConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/configure/MybatisPlusConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/configure/P6spySqlFormatConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/configure/RedisConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/converter/TimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/entity/DeptTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/entity/FebsConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/entity/FebsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/entity/LimitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/entity/MenuTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/entity/QueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/entity/RegexpConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/exception/FebsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/exception/FileDownloadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/exception/GeneratorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/exception/LimitAccessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/exception/RedisConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/function/JedisExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/properties/FebsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/properties/ShiroProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/runner/FebsStartedUpRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/AddressUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/CaptchaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/FebsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/HttpContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/IPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/JsoupUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/SortUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/SpringContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/utils/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/validator/CronValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/validator/MobileValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/controller/GeneratorConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/controller/GeneratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/entity/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/entity/GeneratorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/entity/GeneratorConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/entity/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/helper/GeneratorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/mapper/GeneratorConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/mapper/GeneratorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/servie/IGeneratorConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/servie/IGeneratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/servie/impl/GeneratorConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/generator/servie/impl/GeneratorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/configure/ScheduleConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/controller/JobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/controller/JobLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/entity/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/entity/JobLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/mapper/JobLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/mapper/JobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/service/IJobLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/service/IJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/service/impl/JobLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/service/impl/JobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/task/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/util/ScheduleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/util/ScheduleRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/job/util/ScheduleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/controller/FebsActuatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/controller/LoginLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/controller/SessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/endpoint/FebsHttpTraceEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/endpoint/FebsMetricsEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/ActiveUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/FebsHttpTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/JvmInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/LoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/RedisInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/ServerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/entity/TomcatInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/helper/FebsActuatorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/mapper/LogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/mapper/LoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/ILogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/ILoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/IRedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/ISessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/impl/LoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/monitor/service/impl/SessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/others/controller/EximportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/others/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/others/entity/Eximport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/others/mapper/EximportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/others/service/IEximportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/others/service/impl/EximportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/entity/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/entity/RoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/entity/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/IDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/IMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/IRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/IUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/java/cc/mrbird/febs/system/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/febs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/generator/templates/controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/generator/templates/entity.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/generator/templates/mapper.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/generator/templates/mapperXml.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/generator/templates/service.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/generator/templates/serviceImpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/ip2region/ip2region.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/generator/GeneratorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/job/JobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/system/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/system/LoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/system/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/system/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/system/RoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/mapper/system/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/css/apexcharts.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/css/eleTree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/css/febs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/css/formSelects-v4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/17e420c250804efe904a09a33796d5a10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/17e420c250804efe904a09a33796d5a16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/19034103295190235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/1d22f3e41d284f50b2c8fc32e0788698.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165754.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165815.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165827.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165834.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165840.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165846.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165855.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165909.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165927.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165936.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165942.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414165955.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/20180414170003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/2dd7a2d09fa94bf8b5c52e5318868b4d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/2dd7a2d09fa94bf8b5c52e5318868b4df.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/496b3ace787342f7954b7045b8b06804.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/595ba7b05f2e485eb50565a50cb6cc3c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/5997fedcc7bd4cffbd350b40d1b5b9824.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/5997fedcc7bd4cffbd350b40d1b5b987.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/87d8194bc9834e9f8f0228e9e530beb1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/8f5b60ef00714a399ee544d331231820.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/964e40b005724165b8cf772355796c8c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/BiazfanxmamNRoxxVxka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/WhxKECPNujWoWEFNdnJE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/a3b10296862e40edb811418d64455d00.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/a43456282d684e0b9319cf332f8ac468.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/bba284ac05b041a8b8b0d1927868d5c9x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/c7c4ee7be3eb4e73a19887dc713505145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/cnrhVkzwxjPwAaCfPbdc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/empty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/ff698bb2d25c4d218b3256b46c706ece.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/gaOngJwsRYRaVAuXXcmB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/jZUIxmJycoymBprLOUbT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/avatar/ubnKSIfAJTxIgXOKlciN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/error/403.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/error/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/error/500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/side-bar-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/images/side-bar-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/data/dataSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/extends/apexcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/extends/eleTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/extends/formSelects-v4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/extends/treeSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/modules/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/modules/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/modules/febs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/modules/loadBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/modules/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/febs/lay/modules/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/generator/configure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/generator/generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/job/job.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/job/jobAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/job/jobLog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/job/jobUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/httpTrace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/jvmInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/loginLog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/online.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/redisInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/redisTerminal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/serverInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/monitor/tomcatInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/apex/area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/apex/bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/apex/column.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/apex/line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/apex/mix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/apex/radar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/eximport/eximport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/eximport/eximportResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/febs/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/febs/formGroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/febs/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/febs/others.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/febs/tools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/others/map/gaodeMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/dept/dept.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/menu/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/role/role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/passwordUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/profileUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/userAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/userDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/userProfile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/febs/views/system/user/userUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FEBS-Shiro-2.0/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoSuccess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/META-INF/AutoSuccess.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/jd/BiMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/jd/SingQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/jd/xiongyali.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/monkey/NonRepeat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/monkey/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/socket/SocketClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/socket/SocketManager$SSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/socket/SocketManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/socket/TalkClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/socket/TalkServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/stream/Stream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/thread/DamomThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AutoSuccess/com/circle/thread/ThreadFirst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/jd/BiMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/jd/SingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/jd/xiongyali.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/monkey/NonRepeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/monkey/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/socket/SocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/socket/SocketManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/socket/TalkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/socket/TalkServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/stream/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/thread/DamomThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/thread/ThreadFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/SpringBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/admin/controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/admin/controllers/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/admin/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/controllers/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/controllers/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/error/ExceptionHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/error/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/forms/PostForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/forms/SettingsForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/forms/UserForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/support/PostFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/support/PostStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/models/support/PostType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/repositories/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/repositories/SettingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/repositories/TagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/services/AppSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/services/CacheSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/services/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/services/SettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/services/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/MarkdownService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/MessageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/PygmentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/PygmentsVerbatimSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/SyntaxHighlightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/ViewHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/impl/FlexmarkMarkdownService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/support/web/impl/PegDownMarkdownService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/utils/DTOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/java/com/raysmond/blog/utils/Markdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/css/admin/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/css/bootstrap4-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/css/theme-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/bootstrap-paginator-1.0.2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/bootstrap-paginator-1.0.2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/bootstrap-paginator-1.0.2/js/bootstrap-paginator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/pygments/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/pygments/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/typo.css-2.1.2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/typo.css-2.1.2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/typo.css-2.1.2/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/typo.css-2.1.2/typo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/typo.css-2.1.2/typo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/static/vendors/typo.css-2.1.2/typo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/home/index.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/home/settings.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/layout/admin.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/layout/footer.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/layout/head.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/layout/message.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/layout/navbar.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/posts/edit.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/posts/index.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/posts/new.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/admin/users/profile.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/error/general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/fragments/disqus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/layout/bootstrap4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/layout/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/posts/archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/posts/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/tags/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBlog-master/src/main/resources/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/SpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/DruidAspectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/JobRegistryCenterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/ScheduleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/StockJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/TransactionAdviceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/enums/ResultStatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/exeception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/interceptor/ViewInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/shiro/CredentialsMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/shiro/SessionControlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/shiro/SessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/shiro/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/vo/PageInfoResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/common/vo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/controller/BlackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/controller/FinalExceptionHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/dao/BlackDeviceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/dao/BlackIpDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/dao/BlackUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/dao/MyBatisBaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/dao/RoleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/dao/UserRoleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/BlackDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/BlackIp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/BlackUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/request/BlackRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/request/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/model/response/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/service/BlackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/task/SimpleJobDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/task/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/java/com/licf/demo/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/db/migration/V1.0.1__INIT_DATABASE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/doc/Spring.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/mapping/BlackDeviceDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/mapping/BlackIpDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/mapping/BlackUserDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/mapping/RoleDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/mapping/UserDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/mapping/UserRoleDAO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/main/resources/mybatis-generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/test/java/com/licf/demo/SpringbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/test/java/com/licf/demo/controller/LoginControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-Demo/SpringBoot-Demo/src/test/java/com/licf/demo/service/BlackServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/candy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/algorithm/sort/HeapSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/algorithm/sort/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/algorithm/sort/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/beike/HumpOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/beike/LongestOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/beike/Numbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/beike/Weight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/bytedance/IsAnagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/bytedance/LateGetUp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/bytedance/PaySalery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/candy/Candy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/collection/CompareTo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/collection/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/didi/CaculatorTransform.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/homeworkclub/FindSumSubNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/homeworkclub/LongestStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/homeworkclub/StringReverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/listnode/KNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/listnode/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/monkey/LongestString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/monkey/Pay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/netease/ArrayExchange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/netease/Diamond.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/netease/GradePercent$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/netease/GradePercent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/netease/Harvest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/netease/MainMtethod$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/netease/MainMtethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/pinduoduo/MaxMutiply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/pinduoduo/Moods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/pinduoduo/OrderArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/shangtang/MakeMoney.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/shangtang/Mountain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/shangtang/NBL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/shangtang/Operator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/shangtang/ReversePolishNotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/shopee/SumMethods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/string/StringMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/swordoffer/array/TwoDimensionArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/swordoffer/linkedlist/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/swordoffer/linkedlist/ReverseLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/swordoffer/string/ReplaceBlank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/wenwalk/Coin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/wenwalk/Count.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/out/production/candy/com/circle/wenwalk/MaxCapactity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/algorithm/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/beike/HumpOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/beike/LongestOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/beike/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/beike/Weight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/bytedance/IsAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/bytedance/LateGetUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/bytedance/PaySalery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/candy/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/collection/CompareTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/collection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/didi/CaculatorTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/homeworkclub/FindSumSubNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/homeworkclub/LongestStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/homeworkclub/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/listnode/KNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/listnode/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/monkey/LongestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/monkey/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/netease/ArrayExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/netease/Diamond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/netease/GradePercent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/netease/Harvest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/netease/MainMtethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/pinduoduo/MaxMutiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/pinduoduo/Moods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/pinduoduo/OrderArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/shangtang/MakeMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/shangtang/Mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/shangtang/NBL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/shangtang/ReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/shopee/SumMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/string/StringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/swordoffer/array/TwoDimensionArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/swordoffer/linkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/swordoffer/linkedlist/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/swordoffer/string/ReplaceBlank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/wenwalk/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/wenwalk/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../candy/src/com/circle/wenwalk/MaxCapactity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/entity/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/UserDOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/src/main/java/com/circle/springboot/springbootjpa/SpringbootJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-jpa2/src/test/java/com/circle/springboot/springbootjpa/SpringbootJpaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/out/production/stream/META-INF/stream.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/out/production/stream/com/circle/alibaba/BiTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/out/production/stream/com/circle/alibaba/InvertBiTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/out/production/stream/com/circle/alibaba/PrintALI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/out/production/stream/com/circle/collection/arraylist/ArrayListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/out/production/stream/com/circle/stream/StreamDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/out/production/stream/com/circle/thread/threadpoolexecutor/FileTickets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/com/circle/alibaba/BiTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/com/circle/alibaba/InvertBiTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/com/circle/alibaba/PrintALI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/com/circle/collection/arraylist/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/com/circle/stream/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/src/com/circle/thread/threadpoolexecutor/FileTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream/stream.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/monkey/NonRepeat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/monkey/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/jd/SingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1750">
+              <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/socket/TalkServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/socket/TalkClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/socket/SocketManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/socket/SocketClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/thread/DamomThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/jd/BiMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/circle/jd/xiongyali.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1675">
+              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mai'n</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/circle/stream/Stream.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/thread/simple/ThreadFirst.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/monkey/NonRepeat.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/monkey/Role.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/jd/BiMap.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/socket/TalkSocket.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/jd/SingQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/jd/xiongyali.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/socket/TalkServer.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/socket/TalkClient.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/socket/SocketManager.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/socket/SocketClient.java" />
+        <option value="$PROJECT_DIR$/src/com/circle/thread/DamomThread.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Myapp/maven/apache-maven-3.2.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1284" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JPA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="circle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DamomThread">
+    <configuration name="DamomThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.thread.DamomThread" />
+      <module name="AutoSuccess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.socket.SocketClient" />
+      <module name="AutoSuccess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.socket.SocketManager" />
+      <module name="AutoSuccess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TalkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.socket.TalkClient" />
+      <module name="AutoSuccess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TalkServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.socket.TalkServer" />
+      <module name="AutoSuccess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DamomThread" />
+        <item itemvalue="Application.SocketClient" />
+        <item itemvalue="Application.SocketManager" />
+        <item itemvalue="Application.TalkClient" />
+        <item itemvalue="Application.TalkServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60bbef5c-d78b-4853-8a7d-5b189827bbee" name="Default Changelist" comment="" />
+      <created>1562118129733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562118129733</updated>
+      <workItem from="1562118133963" duration="678000" />
+      <workItem from="1562215430367" duration="1154000" />
+      <workItem from="1562914414585" duration="4070000" />
+      <workItem from="1566631665638" duration="13850000" />
+      <workItem from="1566699794812" duration="1110000" />
+      <workItem from="1567270182315" duration="1345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22207000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45067498" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3281412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_32/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/thread/ThreadFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/monkey/NonRepeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/monkey/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/jd/SingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/socket/TalkServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/socket/TalkClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/socket/SocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/socket/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/jd/BiMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/jd/xiongyali.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/circle/thread/DamomThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

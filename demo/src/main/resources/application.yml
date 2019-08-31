@@ -1,0 +1,28 @@
+#  Tomcat  服务配置server:server:server:
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 80
+  servlet:
+    context-path: /scott
+    #    session过期时间
+    session:
+      timeout: 1800s
+
+spring:
+  # 运行环境 dev:开发环境|test:测试环境|prod:生产环境
+  profiles:
+    active: dev
+  # jackson
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  aop:
+    proxy-target-class: true
