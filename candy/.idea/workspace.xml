@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69398923-9663-4362-8e9f-41ad0d71b1d9" name="Default Changelist" comment="" />
+    <list default="true" id="69398923-9663-4362-8e9f-41ad0d71b1d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/algorithm/tree/ConstructBiTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/BaseEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/BaseMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/ReHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/TreeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/array/SearchInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/tree/BiTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/tree/ConstructBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/tiger/NonRepeatNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/tiger/kuohao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/circle/offer/SearchInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/circle/swordoffer/linkedlist/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/linkedlist/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/circle/swordoffer/string/ReplaceBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/string/ReplaceBlank.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +49,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -41,9 +61,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1OdQRADnqnwFUL8Cks5y60uvAne" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -51,6 +74,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.circle.swordoffer.array" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,26 +92,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
+  <component name="RunManager" selected="Application.kuohao">
     <configuration name="CaculatorTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.circle.didi.CaculatorTransform" />
       <module name="candy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.circle.didi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MakeMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.shangtang.MakeMoney" />
-      <module name="candy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.circle.shangtang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kuohao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.tiger.kuohao" />
+      <module name="candy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.tiger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kuohao" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.ReplaceBlank" />
         <item itemvalue="Application.TwoDimensionArray" />
         <item itemvalue="Application.CaculatorTransform" />
-        <item itemvalue="Application.MakeMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -175,11 +203,28 @@
       <workItem from="1566214514532" duration="3859000" />
       <workItem from="1566903222414" duration="3491000" />
       <workItem from="1567174466388" duration="9669000" />
+      <workItem from="1567832941187" duration="14197000" />
+      <workItem from="1568039930476" duration="1400000" />
+      <workItem from="1568373975574" duration="2677000" />
+      <workItem from="1568432994737" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,7 +351,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/circle/swordoffer/linkedlist/ReverseLinkedList.java</url>
-          <line>58</line>
+          <line>59</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>

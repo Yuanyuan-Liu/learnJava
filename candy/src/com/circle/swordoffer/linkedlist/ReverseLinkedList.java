@@ -2,24 +2,25 @@ package com.circle.swordoffer.linkedlist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Stack;
 
 public class ReverseLinkedList {
     public static void main(String[] args) {
         ListNode listNode = new ListNode(0);
-        /*ListNode p = listNode;
+        ListNode p = listNode;
         int i = 1;
         while (i<=5){
             ListNode listNode1 = new ListNode(i);
             p.next = listNode1;
             p = listNode1;
             i++;
-        }*/
+        }
 
         ReverseLinkedList reverseLinkedList = new ReverseLinkedList();
         System.out.println(Arrays.toString(reverseLinkedList.printListFromTailToHead(listNode.next).toArray()));
         System.out.println("--------------------------");
-        System.out.println(Arrays.toString(reverseLinkedList.printList(listNode.next).toArray()));
+        System.out.println(Arrays.toString(reverseLinkedList.printListFromTailToHead2(listNode.next).toArray()));
     }
 
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
@@ -49,7 +50,7 @@ public class ReverseLinkedList {
      * @param listNode
      * @return
      */
-    public ArrayList<Integer> printList(ListNode listNode){
+    public ArrayList<Integer> printListFromTailToHead2(ListNode listNode){
 
         if (listNode == null ) {
             return new ArrayList<>();
@@ -59,10 +60,11 @@ public class ReverseLinkedList {
         ArrayList<Integer> arrayList = new ArrayList<>();
 
         if(listNode != null) {
-            arrayList.addAll(printList(listNode.next));//先递归
+            arrayList.addAll(printListFromTailToHead2(listNode.next));//先递归
             arrayList.add(listNode.val);//再加入当前
         }
 
+        Collections.sort(arrayList);
         return arrayList;
     }
 
