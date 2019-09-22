@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69398923-9663-4362-8e9f-41ad0d71b1d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/algorithm/tree/ConstructBiTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/BaseEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/BaseMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/ReHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/sogou/TreeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/array/SearchInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/tree/BiTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/tree/ConstructBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/tiger/NonRepeatNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/circle/tiger/kuohao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/duxiaoman/Across.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/netease/MinSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/vivo/Jump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/vivo/SayLineNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/zhaoshangtrustcard/DivideDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/zhaoshangtrustcard/RLRobot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/circle/offer/SearchInArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/circle/swordoffer/linkedlist/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/linkedlist/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/circle/swordoffer/string/ReplaceBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/circle/swordoffer/string/ReplaceBlank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/circle/algorithm/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/circle/algorithm/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/circle/algorithm/tree/ConstructBiTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/circle/algorithm/tree/ConstructBiTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +54,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1OdQRADnqnwFUL8Cks5y60uvAne" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -92,13 +87,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.kuohao">
-    <configuration name="CaculatorTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.didi.CaculatorTransform" />
+  <component name="RunManager" selected="Application.SayLineNumbers">
+    <configuration name="ConstructBiTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.algorithm.tree.ConstructBiTree" />
       <module name="candy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.circle.didi.*" />
+          <option name="PATTERN" value="com.circle.algorithm.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceBlank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.swordoffer.string.ReplaceBlank" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.algorithm.sort.HeapSort" />
       <module name="candy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.circle.swordoffer.string.*" />
+          <option name="PATTERN" value="com.circle.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.swordoffer.linkedlist.ReverseLinkedList" />
+    <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.vivo.Jump" />
       <module name="candy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.circle.swordoffer.linkedlist.*" />
+          <option name="PATTERN" value="com.circle.vivo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimensionArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.swordoffer.array.TwoDimensionArray" />
+    <configuration name="RLRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.zhaoshangtrustcard.RLRobot" />
       <module name="candy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.circle.swordoffer.array.*" />
+          <option name="PATTERN" value="com.circle.zhaoshangtrustcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kuohao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.tiger.kuohao" />
+    <configuration name="SayLineNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.vivo.SayLineNumbers" />
       <module name="candy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.circle.tiger.*" />
+          <option name="PATTERN" value="com.circle.vivo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.kuohao" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.ReplaceBlank" />
-        <item itemvalue="Application.TwoDimensionArray" />
-        <item itemvalue="Application.CaculatorTransform" />
+        <item itemvalue="Application.SayLineNumbers" />
+        <item itemvalue="Application.Jump" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.ConstructBiTree" />
+        <item itemvalue="Application.RLRobot" />
       </list>
     </recent_temporary>
   </component>
@@ -206,8 +201,18 @@
       <workItem from="1567832941187" duration="14197000" />
       <workItem from="1568039930476" duration="1400000" />
       <workItem from="1568373975574" duration="2677000" />
-      <workItem from="1568432994737" duration="261000" />
+      <workItem from="1568432994737" duration="643000" />
+      <workItem from="1568548218681" duration="16418000" />
+      <workItem from="1569139732736" duration="3381000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1568433278310</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568433278310</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +230,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -261,13 +270,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/circle/algorithm/sort/HeapSort.java</url>
-          <line>16</line>
+          <line>59</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/circle/algorithm/sort/HeapSort.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/circle/bytedance/LateGetUp.java</url>
@@ -353,6 +357,31 @@
           <url>file://$PROJECT_DIR$/src/com/circle/swordoffer/linkedlist/ReverseLinkedList.java</url>
           <line>59</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/circle/duxiaoman/Across.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/circle/duxiaoman/Across.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/circle/algorithm/tree/ConstructBiTree.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/circle/algorithm/tree/ConstructBiTree.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/circle/vivo/SayLineNumbers.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
