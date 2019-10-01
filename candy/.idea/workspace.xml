@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69398923-9663-4362-8e9f-41ad0d71b1d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/circle/algorithm/leetcode/LongestPalindromic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/algorithm/offer66/MedianFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/algorithm/tree/PrintTreeFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/circle/algorithm/tree/PrintTreeRecurse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,33 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SayLineNumbers">
-    <configuration name="ConstructBiTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.algorithm.tree.ConstructBiTree" />
-      <module name="candy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.circle.algorithm.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.algorithm.sort.HeapSort" />
-      <module name="candy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.circle.algorithm.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LongestPalindromic">
     <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.circle.vivo.Jump" />
       <module name="candy" />
@@ -119,12 +97,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RLRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.circle.zhaoshangtrustcard.RLRobot" />
+    <configuration name="LongestPalindromic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.algorithm.leetcode.LongestPalindromic" />
       <module name="candy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.circle.zhaoshangtrustcard.*" />
+          <option name="PATTERN" value="com.circle.algorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintTreeFloor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.algorithm.tree.PrintTreeFloor" />
+      <module name="candy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintTreeRecurse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.circle.algorithm.tree.PrintTreeRecurse" />
+      <module name="candy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.circle.algorithm.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromic" />
+        <item itemvalue="Application.PrintTreeRecurse" />
+        <item itemvalue="Application.PrintTreeFloor" />
         <item itemvalue="Application.SayLineNumbers" />
         <item itemvalue="Application.Jump" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.ConstructBiTree" />
-        <item itemvalue="Application.RLRobot" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +200,7 @@
       <workItem from="1568432994737" duration="643000" />
       <workItem from="1568548218681" duration="16418000" />
       <workItem from="1569139732736" duration="4067000" />
+      <workItem from="1569761702704" duration="9497000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1568433278310</created>
@@ -382,6 +387,16 @@
           <line>75</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/circle/algorithm/leetcode/LongestPalindromic.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/circle/algorithm/leetcode/LongestPalindromic.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -392,93 +407,8 @@
     <SUITE FILE_PATH="coverage/candy$HumpOrder.ic" NAME="HumpOrder Coverage Results" MODIFIED="1565440756520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.circle.beike.*</FILTER>
     </SUITE>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>candy</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <SUITE FILE_PATH="coverage/candy$LongestPalindromic.ic" NAME="LongestPalindromic Coverage Results" MODIFIED="1569853298533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.circle.algorithm.leetcode.*</FILTER>
+    </SUITE>
   </component>
 </project>
